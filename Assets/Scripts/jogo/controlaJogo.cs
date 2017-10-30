@@ -87,7 +87,7 @@ public class controlaJogo : MonoBehaviour {
 			else
 				msg = msg + sorteio [i].ToString ();
 		}
-		vez = (comecou)%4+1;
+		vez = (comecou%4)+1;
 		comecou = vez;
 		SendComecoToClient ();
 		atualizaMesa ();
@@ -132,7 +132,7 @@ public class controlaJogo : MonoBehaviour {
 
 			SendJogouToOthers ();
 
-			vez = (vez + 1) % 4;
+			vez = (vez % 4)+1;
 
 			atualizaMesa ();
 		} 
@@ -151,7 +151,7 @@ public class controlaJogo : MonoBehaviour {
 
 			SendJogouToOthers ();
 
-			vez = (vez + 1) % 4;
+			vez = (vez % 4)+1;
 
 			atualizaMesa ();
 		} 
@@ -168,7 +168,7 @@ public class controlaJogo : MonoBehaviour {
 
 			SendJogouToOthers ();
 
-			vez = (vez + 1) % 4;
+			vez = (vez % 4)+1;
 
 			atualizaMesa ();
 		} 
@@ -183,7 +183,7 @@ public class controlaJogo : MonoBehaviour {
 	void ReceiveJogou (string info){
 		int num = int.Parse (info);
 		posicao[3].sprite = cards [sorteio [num]].img;
-		vez = (vez + 1) % 4;
+		vez = (vez % 4)+1;
 		atualizaMesa ();
 	}
 		
@@ -204,7 +204,7 @@ public class controlaJogo : MonoBehaviour {
 		c2 = false;
 		c3 = false;
 		cont = 0;
-		vez = (comecou)%4+1;
+		vez = (comecou%4)+1;
 		comecou = vez;
 		atualizaMesa ();
 		print ("Rodada Iniciada com sucesso!");
