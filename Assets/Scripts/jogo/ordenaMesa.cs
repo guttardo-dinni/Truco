@@ -34,7 +34,7 @@ public class ordenaMesa : MonoBehaviour {
 			Principal.sprite = jogador [3];
 			Parceiro.sprite = jogador [1];
 			advDireito.sprite = jogador [4];
-			advEsquerdo.sprite = jogador [3];
+			advEsquerdo.sprite = jogador [2];
 
 		}
 		else if (PlayerPrefs.GetInt ("id") == 4) {

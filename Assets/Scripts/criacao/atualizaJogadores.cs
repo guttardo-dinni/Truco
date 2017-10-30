@@ -21,6 +21,7 @@ public class atualizaJogadores : MonoBehaviour {
 
 	private bool acabou = false;
 	private float tempo = 5.0f;
+	private bool registrado = false;
 
 	//Comunização entre clientes e servidor
 	private string msg;
@@ -56,9 +57,6 @@ public class atualizaJogadores : MonoBehaviour {
 			} else if (cont == 2) {
 				jogador1.sprite = jog1;
 				jogador2.sprite = jog2;
-				aguardando.sprite = pronto;
-				acabou=true;
-
 			} else if (cont == 3) {
 				jogador1.sprite = jog1;
 				jogador2.sprite = jog2;
@@ -68,6 +66,8 @@ public class atualizaJogadores : MonoBehaviour {
 				jogador2.sprite = jog2;
 				jogador3.sprite = jog3;
 				jogador4.sprite = jog4;
+				aguardando.sprite = pronto;
+				acabou=true;
 			} 
 				
 		}
@@ -99,8 +99,11 @@ public class atualizaJogadores : MonoBehaviour {
 	[RPC]
 	void ReceiveInfoFromServer(string info) {
 		cont = int.Parse (info);
-		PlayerPrefs.SetInt ("id", cont);
-		PlayerPrefs.Save ();
+		if (!registrado) {
+			registrado = true;
+			PlayerPrefs.SetInt ("id", cont);
+			PlayerPrefs.Save ();
+		}
 	}
 		
 }

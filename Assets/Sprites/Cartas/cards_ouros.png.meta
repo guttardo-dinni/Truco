@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 661ee801a2f79924ba839e6b51d427ab
+timeCreated: 1509313747
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Ko
+    21300002: Qo
+    21300004: Jo
+    21300006: 7o
+    21300008: 6o
+    21300010: 5o
+    21300012: 4o
+    21300014: 3o
+    21300016: 2o
+    21300018: Ao
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Ko
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 455
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: Qo
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 455
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: Jo
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 455
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: 7o
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 455
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: 6o
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 455
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: 5o
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 19
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: 4o
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 19
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: 3o
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 19
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: 2o
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 19
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    - name: Ao
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 19
+        width: 272
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -134, y: 197}
+        - {x: -136, y: 195}
+        - {x: -136, y: -197}
+        - {x: 136, y: -197}
+        - {x: 136, y: 195}
+        - {x: 134, y: 197}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

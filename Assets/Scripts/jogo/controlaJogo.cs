@@ -36,7 +36,6 @@ public class controlaJogo : MonoBehaviour {
 	public int[] valor;
 
 	private int p1, p2, pv;
-	public Text ptime1, ptime2;
 
 	public struct obj{
 		public Sprite img;
@@ -88,7 +87,7 @@ public class controlaJogo : MonoBehaviour {
 			else
 				msg = msg + sorteio [i].ToString ();
 		}
-		vez = (comecou + 1)%4;
+		vez = (comecou)%4+1;
 		comecou = vez;
 		SendComecoToClient ();
 		atualizaMesa ();
@@ -205,7 +204,7 @@ public class controlaJogo : MonoBehaviour {
 		c2 = false;
 		c3 = false;
 		cont = 0;
-		vez = (comecou + 1)%4;
+		vez = (comecou)%4+1;
 		comecou = vez;
 		atualizaMesa ();
 		print ("Rodada Iniciada com sucesso!");
