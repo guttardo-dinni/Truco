@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cenas/inicio.unity
+- path: Assets/Cenas/entraIP.unity
   isLoaded: 1
   isActive: 1

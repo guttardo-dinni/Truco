@@ -31,6 +31,7 @@ public class atualizaJogadores : MonoBehaviour {
 	private int cont=0, aux=0;
 
 	void Start () {
+		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		if(Network.isServer){
 			cont = 1;
 			PlayerPrefs.SetInt ("id", 1);
@@ -79,6 +80,7 @@ public class atualizaJogadores : MonoBehaviour {
 		if (info == "Cliente Conectado") {
 			cont++;
 			msg = cont.ToString();
+
 			SendInfoToClient ();
 		}
 			
@@ -87,7 +89,7 @@ public class atualizaJogadores : MonoBehaviour {
 
 	[RPC]
 	void SendInfoToClient() {
-		nView.RPC("ReceiveInfoFromServer", RPCMode.Others, msg);
+		nView.RPC("ReceiveInfoFromServer", RPCMode.OthersBuffered, msg);
 	}
 
 	[RPC]

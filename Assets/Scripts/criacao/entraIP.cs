@@ -16,7 +16,7 @@ public class entraIP : MonoBehaviour {
 
 		msg = "Cliente Conectado";
 		SendInfoToServer ();
-		SceneManager.LoadScene ("criaServidor");
+		SceneManager.LoadScene ("criaServidor", LoadSceneMode.Additive);
 	}
 		
 

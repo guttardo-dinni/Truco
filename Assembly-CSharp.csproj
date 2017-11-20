@@ -49,9 +49,11 @@
      <Compile Include="Assets\Scripts\criacao\entraIP.cs" />
      <Compile Include="Assets\Scripts\criacao\pegaIP.cs" />
      <Compile Include="Assets\Scripts\geral\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\geral\executaButao.cs" />
      <Compile Include="Assets\Scripts\jogo\carta.cs" />
      <Compile Include="Assets\Scripts\jogo\controlaJogo.cs" />
      <Compile Include="Assets\Scripts\jogo\ordenaMesa.cs" />
+     <None Include="Assets\Audio\Unity_Free_8bit_snd\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
